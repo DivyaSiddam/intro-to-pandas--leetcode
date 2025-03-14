@@ -3,5 +3,5 @@ import pandas as pd
 
 def createBonusColumn(employees):
     df = pd.DataFrame(employees, columns=['name', 'salary'])
-    df['bonus'] = df['salary'] * 2  # Creating the bonus column
+    df['bonus'] = df['salary'] * 2 
     return df
